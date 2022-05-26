@@ -1,0 +1,12 @@
+*, *::after, *::before {
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+body {
+    background: linear-gradient(to right, hsl(249, 97%, 48%), hsl(184, 95%, 46%));;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    min-height: 100vh;
+    overflow: hidden;
+}
